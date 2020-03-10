@@ -1,3 +1,6 @@
+# Visual Studio Code files
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +130,22 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+package-lock.json
+
+*.sublime*
+
+psd
+thumb
+sketch
