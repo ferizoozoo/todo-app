@@ -6,5 +6,5 @@ router = routers.SimpleRouter()
 router.register(r'todoItems', TodoItemViewSet)
 
 urlpatterns = [
-    path('v1', include(router.urls))
+    path('v1/', include(router.urls))
 ]
