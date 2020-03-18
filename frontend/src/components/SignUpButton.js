@@ -1,14 +1,14 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
-class LoginButton extends React.Component{
+class SignUpButton extends React.Component{
     render(){
         return (   
             <div>
-                <Button href="#" variant="light" className="login">Login</Button>
+                <Button href="#" variant="danger" className="signup">SignUp</Button>
             </div>
         )
     }
 }
 
-export default LoginButton;
+export default SignUpButton;
